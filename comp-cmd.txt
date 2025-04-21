@@ -1,0 +1,9 @@
+these are the compilation commands:
+
+rm -rf gcm.cache
+
+g++20h vector iostream map algorithm unordered_set memory array random string sstream fstream
+
+g++20 -c Player.cc Player-impl.cc Square.cc Square-impl.cc Property.cc Property-impl.cc Gym.cc Gym-impl.cc Residence.cc Residence-impl.cc AcademicBldg.cc AcademicBldg-impl.cc NonProperty.cc NonProperty-impl.cc SLC.cc SLC-impl.cc NH.cc NH-impl.cc Tuition.cc Tuition-impl.cc Observer.cc Subject.cc Subject-impl.cc Board.cc Board-impl.cc TextDisplay.cc TextDisplay-impl.cc Dice.cc Dice-impl.cc GamePlay.cc GamePlay-impl.cc main.cc
+
+g++20 -o watopoly.out *.o
